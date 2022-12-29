@@ -1,8 +1,8 @@
-function readerList() {
+function activeItem() {
   const activeClass = 'active';
 
-  document.querySelectorAll('.reader-list').forEach(readerList => {
-    let items = readerList.querySelectorAll('.reader-item');
+  document.querySelectorAll('.list').forEach(list => {
+    let items = list.querySelectorAll('.list-item');
 
     items.forEach(item => {
       item.addEventListener('click', function () {
